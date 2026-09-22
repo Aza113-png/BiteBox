@@ -70,257 +70,58 @@
 
     <!-- ФИЛЬТРЫ -->
 
-    <section class="mb-4">
+    <!-- ФИЛЬТРЫ -->
 
-        <div class="filter-scroll">
+<section class="mb-4">
 
-            <button type="button" class="filter-btn active">
-                Все
-            </button>
+    <div class="filter-scroll">
 
-            <button type="button" class="filter-btn">
-                🥗 Салаты
-            </button>
+        <button
+            type="button"
+            class="filter-btn active"
+            data-category="Все"
+        >
+            Все
+        </button>
 
-            <button type="button" class="filter-btn">
-                🥧 Выпечка
-            </button>
+        <button
+            type="button"
+            class="filter-btn"
+            data-category="Салаты"
+        >
+            🥗 Салаты
+        </button>
 
-            <button type="button" class="filter-btn">
-                ⏱️ Быстрые ужины
-            </button>
+        <button
+            type="button"
+            class="filter-btn"
+            data-category="Выпечка"
+        >
+            🥧 Выпечка
+        </button>
 
-        </div>
+        <button
+            type="button"
+            class="filter-btn"
+            data-category="Быстрые ужины"
+        >
+            ⏱️ Быстрые ужины
+        </button>
 
-    </section>
+    </div>
+
+</section>
 
 
     <!-- СЕТКА РЕЦЕПТОВ -->
 
-    <section class="row g-4 pb-5" id="recipesContainer">
-
-
-        <!-- РЕЦЕПТ 1 -->
-
-        <div class="col-12 col-sm-6 col-lg-4">
-
-            <article class="card recipe-card">
-
-                <img
-                    class="recipe-image"
-                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80"
-                    alt="Свежий овощной салат"
-                >
-
-                <div class="card-body">
-
-                    <h5>
-                        Свежий овощной салат
-                    </h5>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-
-                        <span class="badge badge-tag">
-                            🥗 Салаты
-                        </span>
-
-                        <span class="badge badge-tag">
-                            Лёгкий
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="recipe.html"
-                        class="btn btn-dark w-100"
-                    >
-                        Смотреть
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-        <!-- РЕЦЕПТ 2 -->
-
-        <div class="col-12 col-sm-6 col-lg-4">
-
-            <article class="card recipe-card">
-
-                <img
-                    class="recipe-image"
-                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80"
-                    alt="Домашняя пицца"
-                >
-
-                <div class="card-body">
-
-                    <h5>
-                        Домашняя пицца
-                    </h5>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-
-                        <span class="badge badge-tag">
-                            🍕 Выпечка
-                        </span>
-
-                        <span class="badge badge-tag">
-                            Сытное
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="recipe.html"
-                        class="btn btn-dark w-100"
-                    >
-                        Смотреть
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-        <!-- РЕЦЕПТ 3 -->
-
-        <div class="col-12 col-sm-6 col-lg-4">
-
-            <article class="card recipe-card">
-
-                <img
-                    class="recipe-image"
-                    src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=80"
-                    alt="Рис с овощами"
-                >
-
-                <div class="card-body">
-
-                    <h5>
-                        Рис с овощами
-                    </h5>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-
-                        <span class="badge badge-tag">
-                            ⏱️ Быстрый ужин
-                        </span>
-
-                        <span class="badge badge-tag">
-                            Вегетарианское
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="recipe.html"
-                        class="btn btn-dark w-100"
-                    >
-                        Смотреть
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-        <!-- РЕЦЕПТ 4 -->
-
-        <div class="col-12 col-sm-6 col-lg-4">
-
-            <article class="card recipe-card">
-
-                <img
-                    class="recipe-image"
-                    src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=900&q=80"
-                    alt="Сырный пирог"
-                >
-
-                <div class="card-body">
-
-                    <h5>
-                        Сырный пирог
-                    </h5>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-
-                        <span class="badge badge-tag">
-                            🥧 Выпечка
-                        </span>
-
-                        <span class="badge badge-tag">
-                            Сыр
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="recipe.html"
-                        class="btn btn-dark w-100"
-                    >
-                        Смотреть
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-        <!-- РЕЦЕПТ 5 -->
-
-        <div class="col-12 col-sm-6 col-lg-4">
-
-            <article class="card recipe-card">
-
-                <img
-                    class="recipe-image"
-                    src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"
-                    alt="Зелёный боул"
-                >
-
-                <div class="card-body">
-
-                    <h5>
-                        Зелёный боул
-                    </h5>
-
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-
-                        <span class="badge badge-tag">
-                            🥗 Салаты
-                        </span>
-
-                        <span class="badge badge-tag">
-                            Полезное
-                        </span>
-
-                    </div>
-
-                    <a
-                        href="recipe.html"
-                        class="btn btn-dark w-100"
-                    >
-                        Смотреть
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-
-    </section>
+    <!-- СЕТКА РЕЦЕПТОВ -->
+
+<section
+    class="row g-4 pb-5"
+    id="recipesContainer"
+>
+</section>
 
 </main>
 
